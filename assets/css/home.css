@@ -1,0 +1,25 @@
+
+.home-container{
+    /* background-color: #9EC5FE; */
+    background: linear-gradient(45deg, lightcyan, lightyellow); 
+    color: #332701;
+}
+.home-container:hover{
+    transform: scale(1.025);
+    box-shadow: 0 0 10px 2.5px grey;
+    background-color: #96b9ee;
+}
+.project-name{
+    margin: auto;
+    margin-left: 1%;
+}
+.front{
+    will-change: transform;
+    transition: transform 250ms;
+}
+.open-project-btn:hover .front{
+    transform: translateY(-6px);
+}
+.open-project-btn:active .front{
+    transform: translateY(-2px);
+}
