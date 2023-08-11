@@ -64,7 +64,7 @@ Search Issues
 ![Search Issues](Images/Image5.png)
 
 
-## Installation
+## 📐Installation
 
 Install my-project with npm
 
