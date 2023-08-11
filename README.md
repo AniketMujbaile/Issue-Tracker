@@ -37,7 +37,7 @@ Created an Issue Tracker Web Application.
     * Author
 
 
-## Tools Used
+## 🛠️ Tools Used
 <img align="left" src="https://user-images.githubusercontent.com/18380165/224329335-3cdf989b-bdce-41e6-82dc-7d4c50d5f283.png" width="100" height="100">
 <img align="left" src="https://user-images.githubusercontent.com/18380165/224329345-7363d693-4f27-4a58-8c9e-086d8a3fa420.png" width="100" height="100">
 <img align="left" src="https://user-images.githubusercontent.com/18380165/224332427-426a3fbb-e25d-4deb-a832-666ae2e2e418.png" width="100" height="100">
@@ -47,7 +47,19 @@ Created an Issue Tracker Web Application.
 <br>
 <img  src="https://user-images.githubusercontent.com/18380165/224329339-a5174b23-1a5c-4ae4-95c8-ead20a29d77e.png" width="100" height="100">
 
-## Preview...
+## 📐Installation
+ 1)Download Zip and Extract it and then run following commands in directory
+
+ 2)Install my-project by running below command in console
+```bash
+  npm install
+```
+ 3)execute below command to run the server on localhost
+```bash
+  npm start
+```
+
+## 🧑‍💻 Preview...
 Main Page
 ![Main page](Images/Image1.png)
 
@@ -62,25 +74,6 @@ Filter Issues
 
 Search Issues
 ![Search Issues](Images/Image5.png)
-
-
-## 📐Installation
-
-Install my-project with npm
-
-```bash
-  git clone https://github.com/amit-vis/Issue_Tracker.git
-  npm install
-  cd Issue_Tracker
-```
-    
-## Running Tests
-
-To run tests, run the following command
-
-```bash
-  npm start
-```
 
 
 ## Folder Structure
