@@ -3,13 +3,39 @@
 
 Created an Issue Tracker Web Application.
 
-## Users can do multiple tasks over here...
-* Create a project
-* Check the details of the project
-* Create a new issue for the bug present in the project
-* Filter the issues based on labels or Author Name
-* Search Issues based on Issue title and description.
-All this data will be stored at MongoDB Atlas.
+
+## ✨Features
+
+● Home Page
+ 
+  * Shows a list of projects
+  * Given a button to create a new Project (On creating a new project it
+    appear in the list)
+    
+● Create Project Page
+  * Accepts the following fields to create a project
+    * Name
+    * Description
+    * Author
+  
+● Project Detail Page
+  * When the user clicks on a project (in home page) it redirects the user to this
+    page which shows bugs related to that project
+  * User is able to perform following actions on this page
+    * Filter by multiple labels i.e. able to filter by 2 or more
+      labels at the same time
+    * Filter by author
+    * Search by title and description
+  * A button to create an issue
+
+● Create issue page
+  * User able to create an issue for a project
+  * Accept the following fields
+    * Title
+    * Description
+    * Labels (multiple labels can be added to a project)
+    * Author
+
 
 ## Tools Used
 <img align="left" src="https://user-images.githubusercontent.com/18380165/224329335-3cdf989b-bdce-41e6-82dc-7d4c50d5f283.png" width="100" height="100">
