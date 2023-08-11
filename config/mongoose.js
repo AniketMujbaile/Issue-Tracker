@@ -1,19 +1,18 @@
- require('dotenv').config();
+ const mongoose = require("mongoose");
 
-const mongoose = require('mongoose');
+// Connection to mongodb.
+mongoose.connect("mongodb+srv://aniketmujbaile1:OTAxMTI3MTU5NQ==@cluster0.ittt685.mongodb.net/?retryWrites=true&w=majority"); 
 
-let DB_URL = process.env.DB_URL;
+const db = mongoose.connection; // db store the connection
 
-mongoose.connect(DB_URL, {
-    useNewUrlParser: true,
-    useUnifiedTopology: true
-}).then(() => {
-    console.log(`Connection successful`);
-}).catch((err) => {
-    console.log(`Error connecting to database`, err);
+// cheacking the connection
+db.on("error", console.error.bind(console, "connection error:"));
+db.once("open", function () {
+  console.log("DATABASE connection is Established");
 });
 
-module.exports = mongoose.connection;
+// exporting the connection.
+module.exports = db;
  
 
 
