@@ -13,7 +13,7 @@ Created an Issue Tracker Web Application.
   * Given a button to create a new Project (On creating a new project it
     appear in the list)
     
-● Create Project Page
+●  Project Page
   * Accepts the following fields to create a project
     * Name
     * Description
@@ -29,7 +29,7 @@ Created an Issue Tracker Web Application.
     * Search by title and description
   * A button to create an issue
 
-● Create issue page
+● Issue page
   * User able to create an issue for a project
   * Accept the following fields
     * Title
